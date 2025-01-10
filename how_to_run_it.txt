@@ -1,0 +1,7 @@
+1- Open Flask  folder in terminal 
+2- source venv/bin/activate
+3- python app.py
+4- open a browser and open 127.0.0.1:5000/login 
+5- enter username : kouki
+6- enter password : 12345678
+
