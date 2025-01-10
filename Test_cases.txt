@@ -1,5 +1,0 @@
-2- write a program in c that defines an enumeration for different status codes (9s) ( test1.png ) working 
-3- write a program in C that calculates the factorial of a number. (7s) (question2.png) working  
-4- write a program in C that calculates that swaps two floating-point number (7s) (question3.png) working.
-5- write a program in c that implments a simple queue using an array of int (8.5s) (question4.png) working
-
