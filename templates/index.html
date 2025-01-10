@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Accueil</title>
+</head>
+<body>
+    <h1>Bienvenue, {{ current_user.username }} !</h1>
+    <h2>Vos conversations</h2>
+    <ul>
+        {% for conversation in conversations %}
+        <li>{{ conversation.title }}</li>
+        {% endfor %}
+    </ul>
+    <a href="{{ url_for('auth.logout') }}">Déconnexion</a>
+</body>
+</html>
